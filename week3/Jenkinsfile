@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'uname -a'
                 echo "This is the Master Branch"
             }
         }
